@@ -77,6 +77,7 @@ className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-
 
 <motion.div
 variants={slideIn('right', 'tween', 0.2, 1)}
+
 >
 
 </motion.div>
