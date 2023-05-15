@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className={`${styles.paddingX} w-full flex
     items-center py-5 fixed top-0 z-20
-    bg-primary`}
+    bg-[#6ee7b7]`}
     >
 <div className='w-full flex justify-between
 items-center max-w-7xl mx-auto'>
@@ -23,14 +23,14 @@ items-center max-w-7xl mx-auto'>
   >
     <img src={logohiro} alt='logohiro' className='w-12 h-12 object-contain' />
     <p className='text-white text-[18px]
-    font-bold cursor-pointer flex'> 
+    font-bold cursor-pointer flex  hover:text-secondary ' > 
      {/* the text is too long for small devices so this hides it VV */}
-    Kyle Young &nbsp; <span 
+    Kyle Young&nbsp;<span 
      
    
     className='sm:block hidden'
     >
-       | Frontend Developer
+       | Frontend Developer 
        </span>
        </p>
   </Link>
@@ -43,9 +43,9 @@ items-center max-w-7xl mx-auto'>
       key={link.id}
       className={`${
         active === link.title
-        ? "text-white"
-        : "text-secondary"
-      } hover:text-white text-[18px]
+        ? "text-secondary"
+        : "text-white"
+      } hover:text-secondary text-[18px]
       font-medium cursor-pointer`}
       onClick={() => setActive(link.title)}
       >

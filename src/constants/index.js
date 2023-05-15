@@ -20,9 +20,12 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
+   
     tripguide,
     threejs,
+    codingdojo,
+    eventful,
+    kantopokemon,
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +34,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -53,10 +56,10 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -104,69 +107,31 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Developer",
+      company_name: "Coding Dojo",
+      icon: codingdojo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "November 2021 - February 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing web applications using Python, Java and the MERN Stack.",
+        "Collaborating with other students to complete projects and solve daily algorithms",
+        "Contributed to group projects as a developer and Scrum Master, ensuring the group’s focus on project goals.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -198,67 +163,70 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Emoji",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "T3stack",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/HirotheChamp/chirp",
+      // website_link: "https://hiro-eventful.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Event Planner",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to create an account, login to create custom events, and allow others and yourself to accept these events.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "GraphQL",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: eventful,
+      source_code_link: "https://github.com/HirotheChamp/Eventful",
+      website_link: "https://hiro-eventful.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Kanto Pokedex",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A pokedex of the first 151 pokemon constructed through fetching the pokemon API and rendering its data using vanilla javaScript.",
       tags: [
         {
-          name: "nextjs",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "PokeAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: kantopokemon,
+      source_code_link: "https://github.com/HirotheChamp/PokemonKanto",
+      website_link: "https://kantopokemon.netlify.app/",
     },
   ];
   

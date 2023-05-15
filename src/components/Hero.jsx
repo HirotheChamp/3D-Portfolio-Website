@@ -13,18 +13,18 @@ const Hero = () => {
         <div className='flex flex-col
         justify-center items-center mt-5'> 
 <div className='w-5 h-5 rounded-full
-bg-[#915eff]' />
+bg-[#6ee7b7]' />
 <div className='w-1 sm:h-80 h-40
-violet-gradient'/>
+green-gradient'/>
 
 </div>
 <div>
   <h1 className={`${styles.heroHeadText}
-   text-white`}>Hi, I'm <span 
-   className='text-[#915eff]'>Kyle
+   text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]`}>Hi, I'm <span 
+   className='text-[#6ee7b7]'>Kyle
    </span></h1>
    <p className={`${styles.heroSubText} mt-2
-   text-white-100`}>
+   text-white-100 drop-shadow-[0_1.1px_1.1px_rgba(0,0,0,0.8)]`}>
     I am a React Frontend <br className='sm:block hidden'/>Developer
    </p>
         </div>
@@ -38,7 +38,7 @@ violet-gradient'/>
         <a href='#about'>
           <div className='w-[35px] h-[64px]
           rounded-3xl border-4 border-secondary
-          flex justify-center items-start p-2'>
+          flex justify-center items-start p-2 '>
 <motion.dev
 animate={{
   y: [0, 24, 0]
